@@ -55,6 +55,12 @@ jobs:
 
       - run: flutter pub get
 
+      # Force CocoaPods instead of Swift Package Manager: SPM resolves a
+      # Firebase iOS SDK that doesn't match cloud_firestore's native code
+      # (FLTPipelineParser.m fails to compile), whereas the CocoaPods path pins
+      # a matching Firebase SDK version.
+      - run: flutter config --no-enable-swift-package-manager
+
       # No Apple signing certificate needed — this proves the app compiles for
       # iOS and produces a .app. A signed, installable .ipa requires an Apple
       # Developer account (add signing secrets to enable it later).
