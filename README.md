@@ -29,8 +29,9 @@ flutter pub get
 flutter run
 ```
 
-Requires a Firebase project. The app falls back to bundled mock data if Firebase
-isn't reachable, so it still runs for development.
+Requires a Firebase project (config in `lib/firebase_options.dart`). Firestore
+offline persistence is enabled, so the app keeps working from its local cache
+when the device is offline.
 
 ## Builds
 
