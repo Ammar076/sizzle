@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "757887194855",
+    "project_id": "recipebook-b333e",
+    "storage_bucket": "recipebook-b333e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757887194855:android:e607f0e679850ecb76b442",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_layout_tutorial"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9u7oK16cUahNniIcaERKv9ytZPqQVk8w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
